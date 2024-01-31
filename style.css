@@ -2,26 +2,30 @@ body {
     text-align: left;
     font-family: Comic Sans MS;
     font-size: 30px;
-    box-shadow: 2px 7px 2px;
+    box-shadow: 2px 2px 2px;
     color : white;
-
 }
 #mission{
-    display: block;
+    display: inline-block;
     width: 25%;
     height: auto;
+    margin: auto;
+    max-block-size: 25%;
 }
+.container {
+    position: relative;
+    width: auto;
+  }
 .overlay {
-    position: static;
+    position:absolute;
     top: 0;
     bottom: 0;
-    left: 0;
-    right: 0;
     height: 100%;
-    width: 100%;
+    width: 25%;
     opacity: 0;
     transition: .5s ease;
-    background-color: lightgrey;
+    background-color: grey;
+    margin: auto;
 }
 .container:hover .overlay {
     opacity: .5;
@@ -34,10 +38,28 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    text-align: center;
 }
 body{
     background-color: black ;
 }
 nav{
-    background-color: white;
+    font-size: .8em;
+    display: flex;
+    justify-content:left;
+    box-shadow: 2px 2px 2px;
+}
+nav a {
+    padding: 5px 15px;
+    text-decoration: none;
+    color: lightgrey;
+    border: 2px solid white
+}
+nav a:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+h1{
+    text-align: center;
 }
