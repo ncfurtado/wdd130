@@ -8,7 +8,7 @@ body{
 header{
     background-color: #5689B3;
 }
-.logo{
+.logo, .icon{
     width: 80px;
 }
 img.logo{
