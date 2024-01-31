@@ -1,48 +1,111 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik:wght@300;400&display=swap');
 body{
+    padding: 0;
+    margin: 0;
     background-color: rgba(255, 255, 255, 0.836);
+    font-family: 'Roboto','Arial', sans-serif;
 }
 header{
     background-color: #5689B3;
 }
+.logo{
+    width: 80px;
+}
+img.logo{
+    width: 100px;
+}
+#logo_link {
+    padding-top: 5px;
+}
 nav a{
     background-color: #5689B3;
+    font-family: 'Rubik','Geneva', sans-serif;
     text-align: center;
     text-decoration: none;
     color: white;
+    padding: 35px;
 }
 nav a:hover{
     background-color: #D0CCD0;
     color: #000000;
+    font-family: 'Rubik','Geneva',  sans-serif;
 }
 .book, .join{
     background-color: #C4BFC4;
     text-decoration: none;
+    font-size: 18px;
+    font-family: 'Rubik','Geneva', sans-serif;
+    padding:15px 30px;
+    margin-top: 50px;
     
 }
 .book:hover, .join:hover{
     background-color: #5689B3;
 }
 .home-title{
+    font-size: 3em;
     color: #000000;
+    font-family:'Rubik','Geneva', sans-serif;
+    margin-top: 10px;
 }
 #background{
     height: 725px;
     background-color: #274156;
 }
+h2{
+    margin: 0;
+}
+.icon{
+    padding-top: 10px;
+} 
 .msg{
     background-color: #C4BFC4; ;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
     color: black;
+    font-family: 'Rubik','Geneva', sans-serif;
+    padding-bottom: 15px;
 }
 .msg p{
     color: #000000;
+    font-family: 'Roboto','Arial', sans-serif;
+    font-size: .8em;
 }
-.logo{
-    width: 80px;
+
+#content{ 
+    max-width: 1600px;
+    margin: 0 auto;
+}
+h2, h3, h4, h5, h6, p{
+    color: black;
+    font-family: 'Roboto','Arial',sans-serif;
+}
+#hero-msg h1, hero-msg, h4{
+    text-align: center;
+}
+.button-box{
+    text-align: center;
+}
+img#hero-img {
+    width: 100%;
+}
+
+img.card-img{
+    display: block;
+    margin: 0 auto;
+}
+main section{
+    text-align: center;
+}
+.rivers-card,.camping-card,.rapids-card{
+    margin: 200px 0;
 }
 footer{
     background-color: #5689B3;
+    padding: 15px 50px;
+    margin-top: 200px;
 }
 footer a{
     color: #D0CCD0;
@@ -58,30 +121,6 @@ footer p{
 footer p a:hover{
     text-decoration: underline;
 }
-#content{ 
-    max-width: 1600px;
-    margin: 0 auto;
-}
-h1, h2, h3, h4, h5, h6, p{
-    color: black;
-}
-#hero-msg h1, hero-msg h4{
-    text-align: center;
-}
-.button-box{
-    text-align: center;
-}
-main section{
-    text-align: center;
-}
-img.logo {
-    width: 100px;
-}
-img#hero-img {
-    width: 100%;
-}
-
-img.card-img{
-    display: block;
-    margin: 0 auto;
+footer .social img{
+    padding-top: 15px;
 }
