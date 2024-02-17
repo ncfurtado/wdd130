@@ -1,7 +1,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik:wght@300;400&display=swap');
 body{
     padding: 0;
-    margin:  auto;
+    margin:  0  ;
     background-color: rgba(255, 255, 255, 0.836);
     font-family: 'Roboto','Arial', sans-serif;
 }
@@ -39,6 +39,7 @@ nav a:hover{
     font-family: 'Rubik','Geneva', sans-serif;
     padding:15px 30px;
     margin-top: 50px;
+    border-radius: 5px;
     
 }
 .book:hover, .join:hover{
@@ -74,6 +75,7 @@ h2{
     color: #000000;
     font-family: 'Roboto','Arial', sans-serif;
     font-size: .8em;
+    padding-bottom: 15px;
 }
 
 #content{ 
@@ -98,16 +100,23 @@ img.card-img{
     display: block;
     margin: 0 auto;
 }
+.card-img {
+    border: 10px solid #C4BFC4;
+}
 main section{
     text-align: center;
 }
+main-section img{
+    box-sizing: border-box;
+}
 .rivers-card,.camping-card,.rapids-card{
-    margin: 0;
+    margin: 200px 0;
 }
 footer{
     background-color: #5689B3;
     padding: 15px 50px;
     margin-top: 200px;
+    padding: 25px 50px;
 }
 footer a{
     color: #D0CCD0;
