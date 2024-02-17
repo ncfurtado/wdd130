@@ -1,7 +1,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik:wght@300;400&display=swap');
 body{
     padding: 0;
-    margin: 0;
+    margin:  auto;
     background-color: rgba(255, 255, 255, 0.836);
     font-family: 'Roboto','Arial', sans-serif;
 }
@@ -10,9 +10,11 @@ header{
 }
 .logo, .icon{
     width: 80px;
+    margin: 30px;
 }
 img.logo{
     width: 100px;
+    border-radius: 50%;
 }
 #logo_link {
     padding-top: 5px;
@@ -23,7 +25,7 @@ nav a{
     text-align: center;
     text-decoration: none;
     color: white;
-    padding: 35px;
+    padding: 30px;
 }
 nav a:hover{
     background-color: #D0CCD0;
@@ -76,7 +78,7 @@ h2{
 
 #content{ 
     max-width: 1600px;
-    margin: 0 auto;
+    margin: auto;
 }
 h2, h3, h4, h5, h6, p{
     color: black;
@@ -100,7 +102,7 @@ main section{
     text-align: center;
 }
 .rivers-card,.camping-card,.rapids-card{
-    margin: 200px 0;
+    margin: 0;
 }
 footer{
     background-color: #5689B3;
