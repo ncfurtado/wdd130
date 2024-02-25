@@ -254,3 +254,4 @@ footer .social img{
 /* This could be read as follows: "If the max width of the screen gets smaller than 900px, then use this CSS instead of what you may have seen above" for these selectors.
 
 This CSS will not go into effect unless the screen is less than 900px;  */
+/* with a hexadecimal color value, you can add two extra characters to add an "alpha" value to it, and it controls the opacity of the colors. e.g. #AAAAAAFF (last 2 characters full opacity) and #AAAAAA00 (last two characters are fully transparent)*/
