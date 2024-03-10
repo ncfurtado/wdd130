@@ -9,10 +9,12 @@ header{
     background-color: #5689B3;
     display: grid;
     grid-template-columns: 150px auto;
+    box-shadow: 5px 5px 10px #6f7364;
+
 }
 .logo, .icon{
     width: 80px;
-    margin: 30px;
+    margin: 7px 30px ;
 }
 img.logo{
     width: 80%;
@@ -29,6 +31,7 @@ img.logo{
 nav {
     display: flex;
     justify-content: space-around;
+    
 }
 nav a{
     background-color: #5689B3;
@@ -184,7 +187,7 @@ main-section img{
 footer{
     background-color: #5689B3;
     padding: 15px 50px;
-    margin-top: 200px;
+    margin-top: 100px;
     padding: 25px 50px;
     display: flex;
     justify-content: space-around;
@@ -206,6 +209,56 @@ footer p a:hover{
 }
 footer .social img{
     padding-top: 15px;
+}
+
+.FAQ{
+    text-align: center;
+    font-size: 50px;
+    margin: 50px;
+}
+#sidebar{
+    
+    display: grid;
+    background-color:#5689B3;
+    color: white;
+    grid-template-rows: 40px;
+    float: left;
+    width: 350px;
+    padding: 30px;
+    margin: 10px 5px;
+    box-shadow: 5px 5px 10px #6f7364;
+    height: fit-content;
+}
+
+#sidebar a{
+    margin: 5px 0px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 2px;
+}
+#sidebar a:hover{
+    background-color: #5689B3;
+}
+#entirequestions{
+    background-color:#274156;
+    display: grid;
+    grid-template-columns: 350px 1fr;
+}
+
+#Questions{
+    grid-column: 2/3;
+    display: grid;
+    margin: 0px 20px 10px 70px;
+}
+#Questions div{
+    padding: 10px;
+    margin: 10px;
+    background-color: #C4BFC4; 
+    box-shadow: 5px 5px 10px #6f7364;
+}
+#Questions h2, p{
+    color: black;
 }
 
 @media screen and (max-width: 900px) {
