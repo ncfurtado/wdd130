@@ -1,60 +1,25 @@
 body { 
+    background-color: black ;
     text-align: left;
     font-family: Comic Sans MS;
     font-size: 30px;
-    box-shadow: 2px 2px 2px;
+    border: 2px solid white;
     color : white;
 }
-#mission{
-    display: inline-block;
-    width: 25%;
-    height: auto;
-    margin: auto;
-    max-block-size: 25%;
-}
-.container {
-    position: relative;
-    width: auto;
-  }
-.overlay {
-    position:absolute;
-    top: 0;
-    bottom: 0;
-    height: 100%;
-    width: 25%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: grey;
-    margin: auto;
-}
-.container:hover .overlay {
-    opacity: .5;
-}
-.text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    text-align: center;
-}
-body{
-    background-color: black ;
-}
 nav{
-    font-size: .8em;
+    font-size: .7em;
     display: flex;
     justify-content:left;
     box-shadow: 2px 2px 2px;
+    justify-items:auto;
+    justify-content:space-evenly;
+    border: 2px solid white;
 }
 nav a {
     padding: 5px 15px;
     text-decoration: none;
     color: lightgrey;
-    border: 2px solid white
+    text-align: center;
 }
 nav a:hover{
     background-color: whitesmoke;
@@ -62,4 +27,53 @@ nav a:hover{
 }
 h1{
     text-align: center;
+    text-decoration: underline;
 }
+p{
+    display: flex;
+    text-align: center;
+    padding-left: 10px;
+}
+
+
+.container {
+    position: relative;
+    margin: auto;
+    width: 35%;
+    
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color:grey;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
