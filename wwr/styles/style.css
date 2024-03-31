@@ -1,7 +1,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik:wght@300;400&display=swap');
 body{
     padding: 0;
-    margin:  0  ;
+    margin:  0 ;
     background-color: rgba(255, 255, 255, 0.836);
     font-family: 'Roboto','Arial', sans-serif;
 }
@@ -31,7 +31,6 @@ img.logo{
 nav {
     display: flex;
     justify-content: space-around;
-    
 }
 nav a{
     background-color: #5689B3;
