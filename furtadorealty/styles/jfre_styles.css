@@ -24,14 +24,13 @@
 body{
     padding: 0;
     margin:  0;
-    font-family: Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif;
 }
 header{
-    background-color: white;
+    background-color: var(--primary-color);
     display: grid;
     grid-template-columns:repeat( 150px,10);
     grid-template-rows: 20px, 200px, 200px;
-    color: black;
+    color: var(--headline-color-on-white);
 
 }
 nav {
@@ -40,9 +39,14 @@ nav {
     max-height: 200px;
     border: 5px solid black;
 }
-nav.tel-email {
-    grid-row: 1/2;
-    /* grid-column: ; */
+.tel-email {
+    display: flex;
+    justify-content: right;
+}
+div a {
+    text-decoration: none;
+    color: black;
+    margin:10px
 }
 #logo{
     width: 120px;
@@ -51,36 +55,46 @@ nav.tel-email {
 }
 nav a {
     font-size: 1.15em;
-    color: black;
+    color: var(--headline-color-on-color);
+   
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--headline-color-on-white);
   }
+#hero-box{
+    background-color: var(--secondary-color);
+}
 #hero_image{
     max-width: 100%;
 }
 .about_joey{
-    display:flex;
+    display:inline-flex;
     font-size: 1.7em;
+    background-color: var(--accent1-color);
+    color: var(--paragraph-color-on-color);
+    align-items: center;
 }
 #wistful{
     display:flex;
     height: 750px;
 }
+#colored_background{
+    color: var(--paragraph-color-on-color);
+}
 .success{ 
-max-width: 33%;
+        max-width: 33%;
 }
 footer{
-background-color: #6FA5D8;
-padding: 15px 50px;
-margin-top: 100px;
-padding: 25px 50px;
-display: flex;
-justify-content: space-around;
-align-items: center;
-font-size: 1.15em;
-color: white;
+    background-color: var(--accent1-color);
+    padding: 15px 50px;
+    margin-top: 100px;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.15em;
+    color: white;
 }
 footer img{
     max-width: 50px;
