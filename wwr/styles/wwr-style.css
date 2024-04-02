@@ -26,7 +26,7 @@ img.logo{
     padding-top: 5px;
     justify-self: center;
     align-self: center;
-    padding-right: 15%;
+    padding-right: 65%;
 }
 nav {
     display: flex;
@@ -41,7 +41,7 @@ nav a{
     color: white;
     padding: 30px;
     margin: auto;
-    width: 75%;
+    width: auto;
 }
 nav a:hover{
     background-color: #D0CCD0;
@@ -65,7 +65,7 @@ nav a:hover{
 #hero-msg h4{
     color: white;
 }
-.home-title{
+.hero-title{
     font-size: 3em;
     color: white;
     font-family:'Rubik','Geneva', sans-serif;
