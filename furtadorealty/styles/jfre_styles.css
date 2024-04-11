@@ -236,7 +236,9 @@ body main div div img{
     margin-top: 50px;
     box-shadow: #223D3C 2px 2px 2px;
 }     
-
+#about-joey{
+    padding-top: 20px;
+}
 footer{
     background-color: var(--accent1-color);
     padding: 10px 50px;
